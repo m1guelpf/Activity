@@ -51,7 +51,8 @@
      * @param string $token		 	The token
      * @param string $action			The action
      */
-     function validateToken($token, $action){
+     function validateToken($token, $action)
+     {
 // SQL query to check if token is valid
 // Verification to check if action is allowed
 // Log error or make activity
