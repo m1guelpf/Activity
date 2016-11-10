@@ -1,2 +1,2 @@
 # Activity
-A PHP API to log activity everywhere
+A PHP API to log activity anywhere
