@@ -50,7 +50,7 @@
      */
      function getToken()
      {
-//         $token = null;
+         //         $token = null;
 //         $headers = apache_request_headers();
 //         if (isset($headers['Authorization'])) {
 //             $matches = [];
@@ -61,6 +61,7 @@
 //         }
 //
          $token = $_SERVER['Authorization'];
+
          return $token;
      }
 /*
