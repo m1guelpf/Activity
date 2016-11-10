@@ -53,7 +53,7 @@
      */
      function validateToken($token, $action)
      {
-// SQL query to check if token is valid
+         // SQL query to check if token is valid
 // Verification to check if action is allowed
 // Log error or make activity
-    }
+     }
