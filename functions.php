@@ -50,16 +50,17 @@
      */
      function getToken()
      {
-         $token = null;
-         $headers = apache_request_headers();
-         if (isset($headers['Authorization'])) {
-             $matches = [];
-             preg_match('/Token token="(.*)"/', $headers['Authorization'], $matches);
-             if (isset($matches[1])) {
-                 $token = $matches[1];
-             }
-         }
-
+//         $token = null;
+//         $headers = apache_request_headers();
+//         if (isset($headers['Authorization'])) {
+//             $matches = [];
+//             preg_match('/Token token="(.*)"/', $headers['Authorization'], $matches);
+//             if (isset($matches[1])) {
+//                 $token = $matches[1];
+//             }
+//         }
+//
+         $token = $_SERVER['Authorization'];
          return $token;
      }
 /*
