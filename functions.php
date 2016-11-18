@@ -14,8 +14,9 @@
      *
      * @param string $type		 	The Activity Type
      * @param string $title			The Activity Title
+     * @param string $website       The Activity Website
      */
-    function updateActivity($type, $title)
+    function updateActivity($type, $title, $website)
     {
         global $mysqli;
         $activityIp = $_SERVER['REMOTE_ADDR'];
@@ -27,20 +28,24 @@
 									activityTitle,
 									activityDate,
 									ipAddress,
-									userAgent
+									userAgent,
+                                    Website
 								) VALUES (
 									?,
 									?,
 									NOW(),
 									?,
-									?
+									?,
+                                    ?
 								)
 		');
         $stmt->bind_param('ssss',
                             $type,
                             $title,
                             $activityIp,
-                            $userAgnt
+                            $userAgnt,
+                            $website
+
         );
         $stmt->execute();
         $stmt->close();

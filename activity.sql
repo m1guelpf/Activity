@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `tokens` (
+  `ID` int(5) NOT NULL AUTO_INCREMENT,
+  `token` text NOT NULL,
+  `Website` text NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;

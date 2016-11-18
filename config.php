@@ -5,6 +5,7 @@ $dbhost = 'localhost'; // Your database host (usually localhost)
 $dbuser = 'root'; // Your database username
 $dbpass = 'root'; // Your database password
 $dbname = 'activity'; // Your database name
+$dbport = 3306;
 date_default_timezone_set('Europe/Madrid'); // Your timezone
 if (!$debug) {
     error_reporting(0);
@@ -12,7 +13,7 @@ if (!$debug) {
 }
 
     //Connect
-    $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+    $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname, $dbport);
     if (mysqli_connect_errno()) {
         if ($debug) {
             printf('MySQLi connection failed: ', mysqli_connect_error());
