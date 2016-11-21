@@ -37,7 +37,7 @@ $token = $mysqli->real_escape_string($_GET['token']);
     $token = $result->fetch_assoc();
 // Insert activity
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    if (!isset($_GET['token']) || $_GET['token'] == null) {
+    if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
     $error['status'] = '401';
         $error['description'] = ' Unauthorized';
