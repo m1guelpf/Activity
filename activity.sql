@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS `activity` (
   `activityId` int(5) NOT NULL AUTO_INCREMENT,
   `activityType` int(2) NOT NULL,
   `activityTitle` text,
-  `activityDate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `activityDate` timestamp NOT NULL,
   `ipAddress` varchar(15) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
   `userAgent` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`activityId`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
