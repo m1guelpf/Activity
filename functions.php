@@ -14,7 +14,7 @@
      *
      * @param string $type		 	The Activity Type
      * @param string $title			The Activity Title
-     * @param string $website       The Activity Website
+     * @param string $website   The Activity Origin
      */
     function updateActivity($type, $title, $website)
     {
