@@ -3,7 +3,7 @@
 include 'config.php';
 include 'functions.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (!isset($_GET['token']) || $_GET['token'] == null) {
+    if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
     $error['status'] = '401';
         $error['description'] = ' Unauthorized';
