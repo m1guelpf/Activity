@@ -50,34 +50,3 @@
         $stmt->execute();
         $stmt->close();
     }
-/*
-     * Function to get token
-     */
-     function getToken()
-     {
-         //         $token = null;
-//         $headers = apache_request_headers();
-//         if (isset($headers['Authorization'])) {
-//             $matches = [];
-//             preg_match('/Token token="(.*)"/', $headers['Authorization'], $matches);
-//             if (isset($matches[1])) {
-//                 $token = $matches[1];
-//             }
-//         }
-//
-         $token = $_SERVER['Authorization'];
-
-         return $token;
-     }
-/*
-     * Function to validate token
-     *
-     * @param string $token		 	The token
-     * @param string $action			The action
-     */
-     function validateToken($token, $action)
-     {
-         // SQL query to check if token is valid
-// Verification to check if action is allowed
-// Log error or make activity
-     }
