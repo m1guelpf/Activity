@@ -15,7 +15,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, [
 );
 
 $result = curl_exec($ch);
-if ($result == null) {
+if ($result === null) {
     echo 'null';
 }
 echo $result;
