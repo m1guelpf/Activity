@@ -35,7 +35,7 @@ $token = $mysqli->real_escape_string($_GET['token']);
         exit();
     }
     $token = $result->fetch_assoc();
-updateActivity($activityType, $activityTitle, $activityOrigin);
+    updateActivity($activityType, $activityTitle, $activityOrigin);
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
