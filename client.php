@@ -1,7 +1,7 @@
 <?php
 
 $token = 'test';
-$url = 'http://activity.local.dev'
+$url = 'http://activity.local.dev';
 // Get cURL resource
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
