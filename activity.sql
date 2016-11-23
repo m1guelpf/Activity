@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS `activity` (
   `activityDate` timestamp NOT NULL,
   `ipAddress` varchar(15) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
   `userAgent` varchar(255) DEFAULT NULL,
+  `origin` text NOT NULL,
   PRIMARY KEY (`activityId`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
 -- Example token
