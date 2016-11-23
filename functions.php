@@ -34,10 +34,10 @@
 									NOW(),
 									?,
 									?,
-                                    ?
+                  ?
 								)
 		');
-        $stmt->bind_param('ssss',
+        $stmt->bind_param('sssss',
                             $type,
                             $title,
                             $activityIp,
