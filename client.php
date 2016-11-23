@@ -11,9 +11,9 @@ curl_setopt_array($curl, [
     CURLOPT_USERAGENT      => 'ActivityPost',
     CURLOPT_POST           => 1,
     CURLOPT_POSTFIELDS     => [
-        'activityType'  => '1',
-        'activityTitle' => 'value2',
-        'activityIP' => 'value3',
+        'activityType'      => '1',
+        'activityTitle'     => 'value2',
+        'activityIP'        => 'value3',
         'activityUserAgent' => 'value4',
     ],
 ]);
