@@ -14,3 +14,13 @@ This script is currently over active development and it is currently in a **beta
 
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
+
+## Credits:
+* [Miguel Piedrafita](https://projects.miguelpiedrafita.com)
+* [PHP](https://php.net)
+* [MySQL](https://mysql.com)
+* [cURL](https://curl.haxx.se/)
+* [Python](https://www.python.org/)
+* [NodeJS](https://nodejs.org/)
+* [Python requests library](https://github.com/kennethreitz/requests#requests-http-for-humans)
+* [Node request package](https://github.com/request/request#request---simplified-http-client)
