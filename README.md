@@ -8,5 +8,5 @@ This script is currently over active development and it is **NOT** ready for dev
 
 * You can test the script using:
 ```bash
-curl -X POST -F 'activityType=1' -F 'activityTitle=Test' http://activity.local.dev?token=test
+curl -X POST -F 'activityType=1' -F 'activityTitle=Test' -F 'activityIP=127.0.0.1' -F 'activityUserAgent=Test' http://activity.local.dev?token=test
 ```
