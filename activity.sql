@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `tokens` (
   `token` text NOT NULL,
   `Website` text NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 -- Activity table
 CREATE TABLE IF NOT EXISTS `activity` (
   `activityId` int(5) NOT NULL AUTO_INCREMENT,
@@ -15,3 +15,6 @@ CREATE TABLE IF NOT EXISTS `activity` (
   `userAgent` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`activityId`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+-- Example token
+INSERT INTO `tokens` (`ID`, `token`, `Website`) VALUES
+(1, 'test', 'activity.local.dev');
