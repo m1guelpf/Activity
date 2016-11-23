@@ -35,7 +35,14 @@ $token = $mysqli->real_escape_string($_GET['token']);
         exit();
     }
     $token = $result->fetch_assoc();
-
+if (!isset($_POST['activityType']) || !isset($_POST['activityTitle'])){
+  $error['status'] = '400';
+  $error['description'] = ' Bad Request';
+  header('Content-Type: application/json');
+  echo json_encode($error);
+  http_response_code(400);
+  exit();
+}
     updateActivity($activityType, $activityTitle, $activityOrigin);
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (!isset($_GET['token']) || $_GET['token'] === null) {
@@ -72,5 +79,10 @@ $token = $mysqli->real_escape_string($_GET['token']);
     $token = $result->fetch_assoc();
 // Insert activity
 } else {
-    echo 'ERROR';
+  $error['status'] = '405';
+  $error['description'] = ' Method Not Allowed';
+  header('Content-Type: application/json');
+  echo json_encode($error);
+  http_response_code(405);
+  exit();
 }
