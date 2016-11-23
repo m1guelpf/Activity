@@ -10,6 +10,7 @@ This script is currently over active development and it is currently in a **beta
 * PHP cURL library (Only if using the PHP client)
 * Python requests library (Only if using the Python client)
 * cURL (Only if using the BASH client)
+* Node request package (Only if using the NodeJS client)
 
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
