@@ -16,11 +16,9 @@
      * @param string $title			The Activity Title
      * @param string $website   The Activity Origin
      */
-    function updateActivity($type, $title, $website)
+    function updateActivity($type, $title, $activityOrigin, $activityIp, $userAgnt)
     {
         global $mysqli;
-        $activityIp = $_SERVER['REMOTE_ADDR'];
-        $userAgnt = $_SERVER['HTTP_USER_AGENT'];
         $stmt = $mysqli->prepare('
 							INSERT INTO
 								activity(
@@ -29,7 +27,7 @@
 									activityDate,
 									ipAddress,
 									userAgent,
-                                    Website
+                  Origin
 								) VALUES (
 									?,
 									?,
@@ -44,7 +42,7 @@
                             $title,
                             $activityIp,
                             $userAgnt,
-                            $website
+                            $activityOrigin
 
         );
         $stmt->execute();
