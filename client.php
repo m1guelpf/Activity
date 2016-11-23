@@ -13,6 +13,8 @@ curl_setopt_array($curl, [
     CURLOPT_POSTFIELDS     => [
         'activityType'  => '1',
         'activityTitle' => 'value2',
+        'activityIP' => 'value3',
+        'activityUserAgent' => 'value4',
     ],
 ]);
 // Send the request & save response to $resp
