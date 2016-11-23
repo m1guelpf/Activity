@@ -35,7 +35,7 @@ $token = $mysqli->real_escape_string($_GET['token']);
         exit();
     }
     $token = $result->fetch_assoc();
-    if (!isset($_POST['activityType']) || !isset($_POST['activityTitle'])) {
+    if (!isset($_POST['activityType']) || !isset($_POST['activityTitle']) || !isset($_POST['activityIP']) || !isset($_POST['activityUserAgent'])) {
         $error['status'] = '400';
         $error['description'] = ' Bad Request';
         header('Content-Type: application/json');
