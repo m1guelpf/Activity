@@ -2,7 +2,7 @@
 A PHP API to log activity anywhere
 
 ## Status:
-This script is currently over active development and it is *NOT* ready for development yet.
+This script is currently over active development and it is **NOT** ready for development yet.
 
 ## Tests:
 
