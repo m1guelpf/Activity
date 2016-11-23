@@ -47,7 +47,7 @@ $token = $mysqli->real_escape_string($_GET['token']);
     $activityTitle = $mysqli->real_escape_string($_POST['activityTitle']);
     $activityIP = $mysqli->real_escape_string($_POST['activityIP']);
     $activityUserAgent = $mysqli->real_escape_string($_POST['activityUserAgent']);
-    updateActivity($activityType, $activityTitle, $token['website'], $activityIP, $activityUserAgent);
+    updateActivity($activityType, $activityTitle, $token['Website'], $activityIP, $activityUserAgent);
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
