@@ -27,7 +27,7 @@
 									activityDate,
 									ipAddress,
 									userAgent,
-                  Origin
+                  origin
 								) VALUES (
 									?,
 									?,
