@@ -12,6 +12,9 @@ This script is currently over active development and it is currently in a **beta
 * *(Only if using the BASH client): cURL*
 * *(Only if using the NodeJS client): Node request package*
 
+## Download:
+You can view the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest].
+
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
 
