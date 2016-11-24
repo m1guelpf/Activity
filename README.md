@@ -20,6 +20,11 @@ You can view the lastest **stable** release [here](https://github.com/m1guelpf/A
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
 
+## TO DO:
+* [ ] Ruby Client (WIP)
+* [ ] Retrieve visit information whit GET requests.
+* [ ] More clients
+
 ## Credits:
 * [Miguel Piedrafita](https://projects.miguelpiedrafita.com)
 * [PHP](https://php.net)
