@@ -14,7 +14,7 @@ This script is currently over active development and it is currently in a **beta
 * *(Only if using the BASH client): cURL*
 * *(Only if using the NodeJS client): Node request package*
 * *(Only if using the Ruby client): Ruby net/http package*
-* 
+
 ## Download:
 You can view the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
 
@@ -23,6 +23,7 @@ You can see examples of use in php, python and bash in [the examples folder](htt
 
 ## TO DO:
 * [x] Ruby Client
+* [x] GO Client
 * [ ] Retrieve visit information whit GET requests.
 * [ ] More clients
 
