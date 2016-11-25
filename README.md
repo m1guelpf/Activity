@@ -1,5 +1,5 @@
 # Activity
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2/mini.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2/small.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)
 
 A PHP API to log anything anywhere
 
