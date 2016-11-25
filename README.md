@@ -12,6 +12,7 @@ This script is currently over active development and it is currently in a **beta
 * *(Only if using the PHP client): PHP cURL library*
 * *(Only if using the Python client): Python requests library*
 * *(Only if using the BASH client): cURL*
+* *(Only if using the NodeJS client): Node request package*
 
 ## Download:
 You can view the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
