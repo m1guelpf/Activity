@@ -35,3 +35,4 @@ You can see examples of use in php, python and bash in [the examples folder](htt
 * [NodeJS](https://nodejs.org/)
 * [Python requests library](https://github.com/kennethreitz/requests#requests-http-for-humans)
 * [Node request package](https://github.com/request/request#request---simplified-http-client)
+* [GOLang](https://golang.org/)
