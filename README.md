@@ -1,4 +1,10 @@
 # Activity
+
+<p align="center">
+
+  <img src="http://i.imgur.com/IwbWKJn.png" alt="Activity">
+</p>
+
 [![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)
 
 A PHP API to log anything anywhere
