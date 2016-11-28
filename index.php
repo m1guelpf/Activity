@@ -81,26 +81,26 @@ $token = $mysqli->real_escape_string($_GET['token']);
         exit();
     }
     $token = $result->fetch_assoc();
-  if (!isset($_GET['l'])){
-  $limitnum = 50;
-  $startnum = 1;
-} else if (!fmod($_GET['l'], 50) == 0){
-  $error['status'] = '400';
-  $error['description'] = ' Bad Request';
-  header('Content-Type: application/json');
-  echo json_encode($error);
-  http_response_code(400);
-  exit();
-} else {
-if ($_GET['l'] == 50){
-$limitnum = 50;
-$startnum = 1;
-} else {
-$limitnum = $mysqli->real_escape_string($_GET['l']);
-$startnum = $limitnum - 50;
-}
-}
-$sql = 'SELECT * FROM activity LIMIT '.$startnum.','.$limitnum.'';
+    if (!isset($_GET['l'])) {
+        $limitnum = 50;
+        $startnum = 1;
+    } elseif (!fmod($_GET['l'], 50) == 0) {
+        $error['status'] = '400';
+        $error['description'] = ' Bad Request';
+        header('Content-Type: application/json');
+        echo json_encode($error);
+        http_response_code(400);
+        exit();
+    } else {
+        if ($_GET['l'] == 50) {
+            $limitnum = 50;
+            $startnum = 1;
+        } else {
+            $limitnum = $mysqli->real_escape_string($_GET['l']);
+            $startnum = $limitnum - 50;
+        }
+    }
+    $sql = 'SELECT * FROM activity LIMIT '.$startnum.','.$limitnum.'';
 } else {
     $error['status'] = '405';
     $error['description'] = ' Method Not Allowed';
