@@ -23,7 +23,12 @@ $token = $mysqli->real_escape_string($_GET['token']);
             echo 'Error: '.$mysqli->error."\n";
             exit();
         } else {
-            echo 'The connection to the database failed';
+          $error['status'] = '500';
+          $error['description'] = ' Internal Server Error';
+          header('Content-Type: application/json');
+          echo json_encode($error);
+          http_response_code(500);
+          exit();
         }
     }
     if ($result->num_rows === 0) {
@@ -69,7 +74,12 @@ $token = $mysqli->real_escape_string($_GET['token']);
             echo 'Error: '.$mysqli->error."\n";
             exit();
         } else {
-            echo 'The connection to the database failed';
+          $error['status'] = '500';
+          $error['description'] = ' Internal Server Error';
+          header('Content-Type: application/json');
+          echo json_encode($error);
+          http_response_code(500);
+          exit();
         }
     }
     if ($result->num_rows === 0) {
@@ -81,7 +91,7 @@ $token = $mysqli->real_escape_string($_GET['token']);
         exit();
     }
     $token = $result->fetch_assoc();
-    if (!isset($_GET['l'])) {
+    /*if (!isset($_GET['l'])) {
         $limitnum = 50;
         $startnum = 1;
     } elseif (!fmod($_GET['l'], 50) == 0) {
@@ -100,7 +110,35 @@ $token = $mysqli->real_escape_string($_GET['token']);
             $startnum = $limitnum - 50;
         }
     }
-    $sql = 'SELECT * FROM activity LIMIT '.$startnum.','.$limitnum.'';
+    */
+    $sql = 'SELECT * FROM activity';
+    if (!$result = $mysqli->query($sql)) {
+        if ($debug) {
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo 'Query: '.$sql."\n";
+            echo 'Errno: '.$mysqli->errno."\n";
+            echo 'Error: '.$mysqli->error."\n";
+            exit();
+        } else {
+          $error['status'] = '500';
+          $error['description'] = ' Internal Server Error';
+          header('Content-Type: application/json');
+          echo json_encode($error);
+          http_response_code(500);
+          exit();
+        }
+    }
+    if ($result->num_rows === 0) {
+        $error['status'] = '404';
+        $error['description'] = ' Not found';
+        header('Content-Type: application/json');
+        echo json_encode($error);
+        http_response_code(404);
+        exit();
+    }
+    $activity = $result->fetch_assoc();
+    header('Content-Type: application/json');
+    echo json_encode($activity);
 } else {
     $error['status'] = '405';
     $error['description'] = ' Method Not Allowed';
