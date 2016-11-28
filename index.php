@@ -23,12 +23,12 @@ $token = $mysqli->real_escape_string($_GET['token']);
             echo 'Error: '.$mysqli->error."\n";
             exit();
         } else {
-          $error['status'] = '500';
-          $error['description'] = ' Internal Server Error';
-          header('Content-Type: application/json');
-          echo json_encode($error);
-          http_response_code(500);
-          exit();
+            $error['status'] = '500';
+            $error['description'] = ' Internal Server Error';
+            header('Content-Type: application/json');
+            echo json_encode($error);
+            http_response_code(500);
+            exit();
         }
     }
     if ($result->num_rows === 0) {
@@ -74,12 +74,12 @@ $token = $mysqli->real_escape_string($_GET['token']);
             echo 'Error: '.$mysqli->error."\n";
             exit();
         } else {
-          $error['status'] = '500';
-          $error['description'] = ' Internal Server Error';
-          header('Content-Type: application/json');
-          echo json_encode($error);
-          http_response_code(500);
-          exit();
+            $error['status'] = '500';
+            $error['description'] = ' Internal Server Error';
+            header('Content-Type: application/json');
+            echo json_encode($error);
+            http_response_code(500);
+            exit();
         }
     }
     if ($result->num_rows === 0) {
@@ -120,12 +120,12 @@ $token = $mysqli->real_escape_string($_GET['token']);
             echo 'Error: '.$mysqli->error."\n";
             exit();
         } else {
-          $error['status'] = '500';
-          $error['description'] = ' Internal Server Error';
-          header('Content-Type: application/json');
-          echo json_encode($error);
-          http_response_code(500);
-          exit();
+            $error['status'] = '500';
+            $error['description'] = ' Internal Server Error';
+            header('Content-Type: application/json');
+            echo json_encode($error);
+            http_response_code(500);
+            exit();
         }
     }
     if ($result->num_rows === 0) {
