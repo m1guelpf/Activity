@@ -4,7 +4,7 @@ var request = require("request");
 var headers = {
     "User-Agent":       "Super Agent/0.0.1",
     "Content-Type":     "application/x-www-form-urlencoded"
-}
+};
 
 // Configure the request
 var options = {
