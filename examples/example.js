@@ -18,8 +18,8 @@ var options = {
 request(options, function (error, response, body) {
     if (!error && response.statusCode === 200) {
         // Print out the response body
-        Console.log("Done!");
+        console.log("Done!");
     } else {
-        Console.log("Failed");
+        console.log("Failed");
     }
 })
