@@ -5,7 +5,7 @@
   <img src="http://i.imgur.com/IwbWKJn.png" alt="Activity">
 </p>
 
-[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b9322d8623b4ac281679e0b7dbaffa5)](https://www.codacy.com/app/m1guelpiedrafita/Activity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=m1guelpf/Activity&amp;utm_campaign=Badge_Grade)
+[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b9322d8623b4ac281679e0b7dbaffa5)](https://www.codacy.com/app/m1guelpiedrafita/Activity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=m1guelpf/Activity&amp;utm_campaign=Badge_Grade)  [![License](https://img.shields.io/github/license/m1guelpf/Activity.svg)](LICENSE)
 
 A PHP API to log anything anywhere
 
