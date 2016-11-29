@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [ ! -x /usr/bin/curl ] ; then
     command -v wget >/dev/null 2>&1 || { echo >&2 "Please install cURL or set it in your path. Aborting."; exit 1; }
 fi
