@@ -5,7 +5,7 @@
   <img src="http://i.imgur.com/IwbWKJn.png" alt="Activity">
 </p>
 
-[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)
+[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)
 
 A PHP API to log anything anywhere
 
