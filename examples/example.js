@@ -1,17 +1,17 @@
-var request = require('request');
+var request = require("request");
 
 // Set the headers
 var headers = {
-    'User-Agent':       'Super Agent/0.0.1',
-    'Content-Type':     'application/x-www-form-urlencoded'
+    "User-Agent":       "Super Agent/0.0.1",
+    "Content-Type":     "application/x-www-form-urlencoded"
 }
 
 // Configure the request
 var options = {
-    url: 'http://activity.local.dev?token=test',
-    method: 'POST',
+    url: "http://activity.local.dev?token=test",
+    method: "POST",
     headers: headers,
-    form: {'activityType': '1', 'activityTitle': 'NodeJS', 'activityIP': '127.0.0.1', 'activityUserAgent': 'NodeJS'}
+    form: {"activityType": "1", "activityTitle": "NodeJS", "activityIP": "127.0.0.1", "activityUserAgent": "NodeJS"}
 }
 
 // Start the request
