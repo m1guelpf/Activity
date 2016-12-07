@@ -1,0 +1,26 @@
+{
+  "name": "Activity",
+  "description": "Log anything anywhere.",
+  "repository": "https://github.com/m1guelpf/Activity-heroku",
+  "logo": "https://camo.githubusercontent.com/e97534a44c1aa3bed22f7835c8e99a64180a3e55/687474703a2f2f692e696d6775722e636f6d2f497762574b4a6e2e706e67",
+  "keywords": ["Activity", "php", "m1guelpf"],
+  "website": "https://github.com/m1guelpf/Activity",
+  "env": {
+    "DB_HOST": {
+      "description": "Your MySQL DB host",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "Your MySQL DB name",
+      "required": true
+    },
+    "DB_USER": {
+      "description": "Your MySQL DB user",
+      "required": true
+    },
+    "DB_PASS": {
+      "description": "Your MySQL DB password",
+      "required": true
+    }
+  }
+}
