@@ -7,6 +7,8 @@
 
 [![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b9322d8623b4ac281679e0b7dbaffa5)](https://www.codacy.com/app/m1guelpiedrafita/Activity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=m1guelpf/Activity&amp;utm_campaign=Badge_Grade)  [![License](https://img.shields.io/github/license/m1guelpf/Activity.svg)](LICENSE)  [![Issues](https://img.shields.io/github/issues/m1guelpf/Activity.svg)](https://github.com/m1guelpf/Activity/issues)  [![Mantained](https://img.shields.io/maintenance/yes/2016.svg)](https://github.com/m1guelpf/Activity)  [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/m1guelpf/Activity.svg)](http://isitmaintained.com/project/m1guelpf/Activity "Average time to resolve an issue")
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m1guelpf/Activity-heroku/tree/master)
+
 A PHP API to log anything anywhere
 
 ## Status:
