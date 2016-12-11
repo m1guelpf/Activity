@@ -6,7 +6,7 @@
      */
     function dateTimeFormat($date)
     {
-        $theDateTime = date('F d, Y g:i a', strtotime($date));        // September 5, 2016 9:14 pm
+        $theDateTime = date('F d, Y g:i a', strtotime($date)); // September 5, 2016 9:14 pm
         return $theDateTime;
     }
 /*
