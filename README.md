@@ -5,7 +5,7 @@
   <img src="http://i.imgur.com/IwbWKJn.png" alt="Activity">
 </p>
 
-[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b9322d8623b4ac281679e0b7dbaffa5)](https://www.codacy.com/app/m1guelpiedrafita/Activity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=m1guelpf/Activity&amp;utm_campaign=Badge_Grade)  [![License](https://img.shields.io/github/license/m1guelpf/Activity.svg)](LICENSE)  [![Issues](https://img.shields.io/github/issues/m1guelpf/Activity.svg)](https://github.com/m1guelpf/Activity/issues)  [![Mantained](https://img.shields.io/maintenance/yes/2016.svg)](https://github.com/m1guelpf/Activity)  [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/m1guelpf/Activity.svg)](http://isitmaintained.com/project/m1guelpf/Activity "Average time to resolve an issue")
+[![SensioLabsInsight](http://i.imgur.com/zS1IVWU.png)](https://insight.sensiolabs.com/projects/532e42dd-402e-4605-b8a8-5e5dc8fe6dc2)  [![StyleCI](https://styleci.io/repos/74149532/shield)](https://styleci.io/repos/74149532)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b9322d8623b4ac281679e0b7dbaffa5)](https://www.codacy.com/app/m1guelpiedrafita/Activity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=m1guelpf/Activity&amp;utm_campaign=Badge_Grade)  [![License](https://img.shields.io/github/license/m1guelpf/Activity.svg)](LICENSE)  [![Issues](https://img.shields.io/github/issues/m1guelpf/Activity.svg)](https://github.com/m1guelpf/Activity/issues)  [![Mantained](https://img.shields.io/maintenance/yes/2016.svg)](https://github.com/m1guelpf/Activity)  [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/m1guelpf/Activity.svg)](http://isitmaintained.com/project/m1guelpf/Activity "Average time to resolve an issue")
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m1guelpf/Activity/tree/heroku)
 
@@ -23,7 +23,18 @@ This script is currently over active development and it is currently in a **beta
 * *(Only if using the NodeJS client): Node request package*
 
 ## Download:
-You can view the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
+
+* You can get the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
+* You can get the lastest **beta** release [here](https://github.com/m1guelpf/Activity/archive/master.zip).
+
+## Installation:
+
+1. Download lastest release (check [the downloads section](#download)).
+2. Copy all the files to your server root / a subdirectory.
+3. Create a MySQL database and fill the access details in the config.example.php
+4. Rename config.example.php to config.
+5. Change the example settings in the clients to your settings.
+6. Enjoy!
 
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
@@ -31,6 +42,7 @@ You can see examples of use in php, python and bash in [the examples folder](htt
 ## TO DO:
 * [x] Ruby Client
 * [x] GO Client
+* [ ] C# client
 * [x] Retrieve visit information whit GET requests.
 * [ ] More clients
 
