@@ -23,7 +23,18 @@ This script is currently over active development and it is currently in a **beta
 * *(Only if using the NodeJS client): Node request package*
 
 ## Download:
-You can view the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
+
+* You can get the lastest **stable** release [here](https://github.com/m1guelpf/Activity/releases/latest).
+* You can get the lastest **beta** release [here](https://github.com/m1guelpf/Activity/archive/master.zip).
+
+## Installation:
+
+1. Download lastest release (check [the downloads section](#download)).
+2. Copy all the files to your server root / a subdirectory.
+3. Create a MySQL database and fill the access details in the config.example.php
+4. Rename config.example.php to config.
+5. Change the example settings in the clients to your settings.
+6. Enjoy!
 
 ## Examples:
 You can see examples of use in php, python and bash in [the examples folder](https://github.com/m1guelpf/Activity/blob/master/examples/)
