@@ -31,6 +31,7 @@ You can see examples of use in php, python and bash in [the examples folder](htt
 ## TO DO:
 * [x] Ruby Client
 * [x] GO Client
+* [ ] C# client
 * [x] Retrieve visit information whit GET requests.
 * [ ] More clients
 
