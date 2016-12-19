@@ -31,7 +31,7 @@ This script is currently over active development and it is currently in a **beta
 
 ## Heroku install
 
-<p algin="center">
+<p align="center">
 <a href="https://heroku.com/deploy?template=https://github.com/m1guelpf/Activity/tree/heroku"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </p>
 
