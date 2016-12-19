@@ -29,6 +29,13 @@ This script is currently over active development and it is currently in a **beta
 
 ## Installation:
 
+## Heroku install
+
+<p algin="center">
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m1guelpf/Activity/tree/heroku)
+</p>
+
+## Manual install
 1. Download lastest release (check [the downloads section](#download)).
 2. Copy all the files to your server root / a subdirectory.
 3. Create a MySQL database and fill the access details in the config.example.php
