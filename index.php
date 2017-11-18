@@ -5,15 +5,15 @@ include 'functions.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
-    $error['status'] = '401';
+        $error['status'] = '401';
         $error['description'] = ' Unauthorized';
         header('Content-Type: application/json');
         echo json_encode($error);
         http_response_code(401);
         exit();
     }
-// Authenticated
-$token = $mysqli->real_escape_string($_GET['token']);
+    // Authenticated
+    $token = $mysqli->real_escape_string($_GET['token']);
     $sql = "SELECT * FROM tokens WHERE token = '$token'";
     if (!$result = $mysqli->query($sql)) {
         if ($debug) {
@@ -56,15 +56,15 @@ $token = $mysqli->real_escape_string($_GET['token']);
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (!isset($_GET['token']) || $_GET['token'] === null) {
         // Not authenticated
-    $error['status'] = '401';
+        $error['status'] = '401';
         $error['description'] = ' Unauthorized';
         header('Content-Type: application/json');
         echo json_encode($error);
         http_response_code(401);
         exit();
     }
-// Authenticated
-$token = $mysqli->real_escape_string($_GET['token']);
+    // Authenticated
+    $token = $mysqli->real_escape_string($_GET['token']);
     $sql = "SELECT * FROM tokens WHERE token = '$token'";
     if (!$result = $mysqli->query($sql)) {
         if ($debug) {
